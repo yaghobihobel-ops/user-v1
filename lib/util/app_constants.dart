@@ -3,15 +3,15 @@ import 'package:stackfood_multivendor/util/images.dart';
 import 'package:get/get.dart';
 
 class AppConstants {
-  static const String appName = 'StackFood';
+  static const String appName = 'Gops';
   static const double appVersion = 8.3; ///Flutter SDK: 3.32.7
 
   static const String fontFamily = 'Roboto';
   static const bool payInWevView = false;
-  static const String webHostedUrl = 'https://stackfood-web.6amtech.com';
+  static const String webHostedUrl = 'https://gops.ir';
   static const bool useReactWebsite = false;
 
-  static const String baseUrl = 'https://stackfood-admin.6amtech.com';
+  static const String baseUrl = 'https://gops.ir/api';
   static const String categoryUri = '/api/v1/categories';
   static const String bannerUri = '/api/v1/banners';
   static const String restaurantProductUri = '/api/v1/products/latest';
