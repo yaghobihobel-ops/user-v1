@@ -7,11 +7,11 @@ class AppConstants {
   static const double appVersion = 8.3; ///Flutter SDK: 3.32.7
 
   static const String fontFamily = 'Roboto';
-  static const bool payInWevView = false;
-  static const String webHostedUrl = 'https://gops.ir';
-  static const bool useReactWebsite = false;
+  static const bool payInWevView = true;
+  static const String webHostedUrl = 'https://web.gops.shop';
+  static const bool useReactWebsite = true;
 
-  static const String baseUrl = 'https://gops.ir/api';
+  static const String baseUrl = 'https://gops.shop';
   static const String categoryUri = '/api/v1/categories';
   static const String bannerUri = '/api/v1/banners';
   static const String restaurantProductUri = '/api/v1/products/latest';
